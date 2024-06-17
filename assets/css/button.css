@@ -1,0 +1,184 @@
+::selection {
+    color: white;
+    background: red;
+  }
+
+
+::-webkit-scrollbar {
+    width: 17px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #fafafa;
+    border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border: 4px #fafafa solid;
+    border-radius: 20px;
+    background: #3e64ff;
+    
+  }
+
+
+
+.disabled{
+    background-color:grey !important;
+    color: white !important;
+    cursor: no-drop !important;
+}
+
+
+
+.floating-icon{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.651) !important;
+    display: flex;
+    position: fixed;
+    background-color: #3e65ff73;
+    z-index: 1;
+    right:20px;
+    bottom: 20px;
+    width:55px;
+    height:55px;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+}
+
+.floating-icon:hover{
+    color:white !important;
+    background-color:#3e64ff;
+}
+
+
+
+.btn{
+    text-align: center;
+    padding: 0.5em 1em;
+    color: white;
+    border: 0;
+    margin: 0.3em;
+}
+
+.btn:hover{
+    border: 0;
+    color: white !important;
+}
+
+
+
+.green{
+    background-color: #3ac976 !important;
+
+}
+
+.green:hover{
+    background-color: #33f84d !important;
+    color: white;
+
+}
+
+.green:active{
+    border-top: 2px solid #30c95e !important;
+    color: white;
+}
+
+.red{
+    background-color: #d33f25 !important;
+}
+
+.red:hover{
+    background-color: #ff0000 !important;
+}
+
+.red:active{
+    border-top: 2px solid #be2a2a !important;
+}
+
+.btn:disabled, .green:disabled,.red:disabled{
+    background-color: grey !important;
+}
+
+/* for header button menu toggle */
+
+.btn-t{
+    cursor: pointer;
+}
+
+
+
+
+
+.dropdown-menu{
+    border-radius: 10px; 
+    text-align: center;
+    line-height: 1em;
+}
+
+.nav-lin{
+    font-size: 0.8em;
+}
+.logout{
+    top: 110px;
+}
+
+.stdlogout{
+    top: 320px;
+}
+
+.wel{
+    margin-left: 20px;
+    display:inline-block;
+}
+
+.navbar-header{
+    margin-top: 15px;
+}
+
+
+.menu-icon{
+    font-size: 20px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
